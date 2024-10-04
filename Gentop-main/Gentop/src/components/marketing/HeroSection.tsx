@@ -1,10 +1,10 @@
 import Image from "next/image";
 function HeroSection() {
   return (
-    <div className="grid grid-rows-1 justify-center items-center pb-10 pt-40  bg-[url('/backgroundimage.png')]">
+    <div className="grid grid-rows-1 justify-center items-center pb-20 pt-20  bg-[url('/backgroundimage.png')]">
       <section>
-        <div className="border-2 border-b-white rounded-sm">
-          <div className="relative  z-30 h-[250px] w-[550px] mx-auto mt-40 mb-20 flex items-center justify-center">
+        <div className="border-b- border-b-white rounded-[50%]">
+          <div className="relative border-b- rounded-[50%] border-b-white  z-30 h-[250px] w-[560px] mx-auto mt-20 mb-20 flex items-center justify-center">
             {/* Base Image */}
             <Image
               src="/Gft-1.png"
@@ -31,7 +31,17 @@ function HeroSection() {
               height={550}
               className="ml-3 absolute  "
             />
+
             {/* <div className="absolute z-10 bottom-[-50px] w-[300px] h-[20px] bg-blue-500 rounded-full"></div> */}
+          </div>
+          <div className="w-[560px]">
+            <hr className=" " />
+            <p className="text-center text-white">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Reiciendis, unde. Dicta modi provident facilis perspiciatis
+              tempora quae animi velit explicabo placeat! Cumque suscipit vel
+              autem numquam ea, consectetur laudantium? Dolor.
+            </p>
           </div>
         </div>
 

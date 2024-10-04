@@ -211,9 +211,9 @@ function HomeHeader() {
                 className="h-16 w-16"
               />
             </Link>
-            {/* <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-              Flowbite
-            </span> */}
+            <span className="self-center text-2xl font-semibold text-white">
+              Gentop
+            </span>
           </a>
           <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
             <button
